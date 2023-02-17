@@ -17,13 +17,6 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
 	</properties>
-	<repositories>
-		<server>
-              		<username>admin</username>
-      			<password>Pranitha@77</password>
-      			<id>artifactory</id>
-		</server>
-	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -59,7 +52,7 @@
 
 	<build>
 		<plugins>
-<!-- 			      <plugin>
+			       <plugin>
             <groupId>org.jfrog.buildinfo</groupId>
             <artifactId>artifactory-maven-plugin</artifactId>
             <version>3.4.0</version>
@@ -79,26 +72,18 @@
                             <contextUrl>http://52.66.200.103:8081/</contextUrl>
                             <username>admin</username>
                             <password>Pranitha@77</password>
-                            <repoKey>jcenter</repoKey>
-                            <snapshotRepoKey>libs-snapshot</snapshotRepoKey>
+                            <repoKey>libs-release-local</repoKey>
+                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
                     </configuration>
                 </execution>
             </executions>
-        </plugin>       -->
-
-		<distributionManagement>
-      			<repository>
-       				 <id>Artifact</id>
-        			<name>jcenter</name>
-        			<url>http://52.66.200.103:8081/artifactory</url>
-       			</repository>
-		</distributionManagement>
-	<plugin>
+        </plugin>      
+			<plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                	<artifactId>sonar-maven-plugin</artifactId>
                 <version>3.4.0.905</version>
-        </plugin>
+            </plugin>
 			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
