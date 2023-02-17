@@ -72,7 +72,7 @@
                             <contextUrl>http://52.66.200.103:8081/</contextUrl>
                             <username>admin</username>
                             <password>Pranitha@77</password>
-                            <repoKey>libs-release</repoKey>
+                            <repoKey>jcenter</repoKey>
                             <snapshotRepoKey>libs-snapshot</snapshotRepoKey>
                         </publisher>
                     </configuration>
