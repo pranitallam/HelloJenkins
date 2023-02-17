@@ -74,7 +74,7 @@
                             <review.team>qa</review.team>
                         </deployProperties>
                         <publisher>
-                            <contextUrl>http://52.66.200.103:8082/artifactory/</contextUrl>
+                            <contextUrl>http://52.66.200.103:8081/artifactory/</contextUrl>
                             <username>admin</username>
                             <password>Pranitha@77@123</password>
                             <repoKey>libs-release-local</repoKey>
