@@ -69,18 +69,12 @@
                             <review.team>qa</review.team>
                         </deployProperties>
                         <publisher>
-                            <contextUrl>http://20.172.172.177:8082/</contextUrl>
+                            <contextUrl>http://52.66.200.103:8081/</contextUrl>
                             <username>admin</username>
-                            <password>Itwasntme@123</password>
-                            <repoKey>libs-release-local</repoKey>
-                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                            <password>Pranitha@77</password>
+                            <repoKey>jcenter</repoKey>
+                            <snapshotRepoKey>jcenter-cache</snapshotRepoKey>
                         </publisher>
-			<distributionManagement>
-                        <repository>
-                        <id>liferay-releases</id>
-                        <url>http://localhost:8081/artifactory/remote-repository-name</url>	
-                       </repository>
-                      </distributionManagement>
                     </configuration>
                 </execution>
             </executions>
