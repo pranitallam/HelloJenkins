@@ -79,6 +79,18 @@
                 </execution>
             </executions>
         </plugin>       -->
+			<server>
+              			 <username>admin</username>
+      				<password>AP447H6DXXJW6WW54BvNBorau5s</password>
+      				<id>artifactory</id>
+			</server>
+			<distributionManagement>
+      			<repository>
+       				 <id>artifactory</id>
+        			<name>HelloMaven-release</name>
+        			<url>http://localhost:8081/artifactory/repo1</url>
+       				</repository>
+			</distributionManagement>
 			<plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                	<artifactId>sonar-maven-plugin</artifactId>
