@@ -81,11 +81,16 @@
       				<id>Artifact</id>
 			    </server>
 			    <distributionManagement>
-      				<repository>
-        				<id>Artifact</id>
-        				<name>libs-snapshot-release</name>
-        				<url>http://52.66.200.103:8081/artifactory/</url>
-       				</repository>
+    				<repository>
+        				<id>central</id>
+        				<name>libs-release</name>
+        				<url>http://52.66.200.103:8081/artifactory/libs-release-local</url>
+    				</repository>
+    				<snapshotRepository>
+       					 <id>snapshots</id>
+        				<name>libs-snapshot</name>
+        				<url>http://52.66.200.103:8081/artifactory/libs-snapshot-local</url>
+    				</snapshotRepository>
 			    </distributionManagement>
                     </configuration>
                 </execution>
