@@ -69,14 +69,14 @@
                         <goal>publish</goal>
                     </goals>
                     <configuration>
-                        <deployProperties>
+<!--                         <deployProperties>
                             <gradle>awesome</gradle>
                             <review.team>qa</review.team>
-                        </deployProperties>
+                        </deployProperties> -->
                         <publisher>
-                            <contextUrl>http://52.66.200.103:8081/artifactory/</contextUrl>
+                            <contextUrl>http://52.66.200.103:8081/artifactory</contextUrl>
                             <username>admin</username>
-                            <password>Pranitha@77@123</password>
+                            <password>Pranitha@77</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
