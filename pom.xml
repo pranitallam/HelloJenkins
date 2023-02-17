@@ -73,19 +73,19 @@
                             <gradle>awesome</gradle>
                             <review.team>qa</review.team>
                         </deployProperties>
-<!--                         <publisher>
-                            <contextUrl>http://52.66.200.103:8082/</contextUrl>
+                        <publisher>
+                            <contextUrl>http://52.66.200.103:8082/artifactory/</contextUrl>
                             <username>admin</username>
                             <password>Pranitha@77@123</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
-                        </publisher> -->
-			    <server>
+                        </publisher>
+<!-- 			    <server>
       				<username>admin</username>
       				<password>Pranitha@77</password>
       				<id>Artifact</id>
-			    </server>
-			    <distributionManagement>
+			    </server> -->
+<!-- 			    <distributionManagement>
     				<repository>
         				<id>central</id>
         				<name>libs-release-local</name>
@@ -96,7 +96,7 @@
         				<name>libs-snapshot-local</name>
         				<url>http://52.66.200.103:8081/artifactory/libs-snapshot-local</url>
     				</snapshotRepository>
-			    </distributionManagement>
+			    </distributionManagement> -->
                     </configuration>
                 </execution>
             </executions>
