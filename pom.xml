@@ -78,7 +78,7 @@
                             <username>admin</username>
                             <password>Pranitha@77</password>
                             <repoKey>libs-release-local</repoKey>
-                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                            <snapshotRepoKey>jcenter</snapshotRepoKey>
                         </publisher>
 <!-- 			    <server>
       				<username>admin</username>
