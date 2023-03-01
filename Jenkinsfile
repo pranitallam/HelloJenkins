@@ -33,14 +33,14 @@ pipeline {
                 
             }
        }
-        stage('Sonar Scan'){
-		    steps{
-			    dir('HelloJenkins'){
-			    withSonarQubeEnv('sonarqube'){
-		        sh 'mvn sonar:sonar'
-		 }
-	    }
-	 }
-	 }
+//         stage('Sonar Scan'){
+// 		    steps{
+// 			    dir('HelloJenkins'){
+// 			    withSonarQubeEnv('sonarqube'){
+// 		        sh 'mvn sonar:sonar'
+// 		 }
+// 	    }
+// 	 }
+// 	 }
     }
 }
