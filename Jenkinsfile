@@ -14,9 +14,9 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir('HelloJenkins'){
+//                 dir('HelloJenkins'){
                 sh 'mvn -B -DskipTests clean package'
-                }
+//                 }
             }
        }
         stage('Test') {
