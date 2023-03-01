@@ -21,16 +21,16 @@ pipeline {
        }
         stage('Test') {
             steps {
-                dir('HelloJenkins'){
+                
                 sh 'mvn test'
-                }
+                
             }
        }
         stage('Install') {
             steps {
-                dir('HelloJenkins'){
+                
                 sh 'mvn -B -DskipTests clean install'
-                }
+                
             }
        }
         stage('Sonar Scan'){
