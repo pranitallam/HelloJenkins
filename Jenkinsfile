@@ -35,7 +35,7 @@ pipeline {
        }
 	    stage('Deploy in Prod env') {
             when {
-                branch 'prod'
+                branch 'main'
             }
             steps {
                 sh "kubectl apply -f deployment.yaml"
