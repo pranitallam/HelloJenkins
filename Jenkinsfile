@@ -33,6 +33,14 @@ pipeline {
                 
             }
        }
+	    stage('Deploy in Prod env') {
+            when {
+                branch 'prod'
+            }
+            steps {
+                sh "kubectl apply -f deployment.yaml"
+            }
+        }
 //         stage('Sonar Scan'){
 // 		    steps{
 // 			    dir('HelloJenkins'){
